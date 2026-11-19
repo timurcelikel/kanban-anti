@@ -151,7 +151,7 @@ export function KanbanBoard() {
             <div className="flex items-center gap-2.5">
               <span className="inline-block h-2.5 w-2.5 rounded-xs bg-yellow" />
               <h1 className="text-xl font-bold tracking-tight text-navy">
-                Product Delivery Board
+                Product Kanban Board
               </h1>
             </div>
             <p className="mt-0.5 text-xs text-muted">
