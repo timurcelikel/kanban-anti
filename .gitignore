@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+frontend/node_modules/
+
+# Next.js build output
+frontend/.next/
+frontend/out/
+build/
+dist/
+
+# Testing and coverage
+coverage/
+frontend/coverage/
+frontend/playwright-report/
+frontend/test-results/
+playwright-report/
+test-results/
+
+# Environment
+.env*
+
+# OS and editor artifacts
+.DS_Store
+*.tsbuildinfo
+next-env.d.ts

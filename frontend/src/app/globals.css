@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-navy: #032147;
+  --color-yellow: #ecad0a;
+  --color-blue: #209dd7;
+  --color-purple: #753991;
+  --color-muted: #888888;
+  --color-surface: #f5f7fb;
+  --color-column: #eef2f7;
+  --font-sans: var(--font-jakarta);
+}
+
+body {
+  background-color: #f5f7fb;
+  background-image:
+    radial-gradient(at 10% 0%, rgba(32, 157, 215, 0.07) 0px, transparent 45%),
+    radial-gradient(at 90% 0%, rgba(236, 173, 10, 0.08) 0px, transparent 40%);
+  color: #032147;
+  font-family: var(--font-jakarta), system-ui, -apple-system, sans-serif;
+}
